@@ -1,16 +1,16 @@
 //ROYA
 //09192024
 //CHAPTER 2 CHECKPOINT EXERCISE
-//CHECKPOINTEXERCISE2.14
+//CHECKPOINTEXERCISE2.17
 #include <iostream>
+#include <string> 
 using namespace std;
-
 int main()
 {
-char first, middle, last;
-first = 'R';
-middle = 'R';
-last = 'M';
-cout << first << " " << middle << " " << last << endl;
-return 0;
+  string name, address, phoneNumber;
+  name = "Roya"; 
+  address = "110 stratford road";
+  phoneNumber = "646-956-76-25";
+  cout << name << " " << address << " " << phoneNumber << endl;
+  return 0;
 }
